@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 
 const rapidApiKey = process.env.RAPID_API_KEY
-
+console.log("rapidApiKey", rapidApiKey)
 const useFetch = (endpoint, query) => {
     const [data, setData] = useState([])
     const [isLoading, setIsLoading] = useState(false)
