@@ -1,6 +1,6 @@
 export default MockResponse = (endpoint) => {
     let url=''
-    if(process.env.isProduction){
+    if(process.env.isProduction===true){
        url = `https://jsearch.p.rapidapi.com/${endpoint}`
     }else{
         switch(endpoint){

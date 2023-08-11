@@ -8,11 +8,11 @@ const useFetch = (endpoint, query) => {
     const [isLoading, setIsLoading] = useState(false)
     const [error, setError] = useState(null)
 
-    const url = MockResponse(endpoint)
+    // const url = MockResponse(endpoint)
     
     const options = {
         method: 'GET',
-        url: url,
+        url: `https://jsearch.p.rapidapi.com/${endpoint}`,
         headers: {
             'X-RapidAPI-Key': rapidApiKey,
             'X-RapidAPI-Host': 'jsearch.p.rapidapi.com'
