@@ -1,3 +1,4 @@
+Mobile App built with React Native, expo and Rapid API for finding popular jobs, nearby jobs and searching jobs based on key words
 # Expo Router Example
 
 Use [`expo-router`](https://expo.github.io/router) to build native navigation using files in the `app/` directory.
